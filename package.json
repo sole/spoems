@@ -1,0 +1,36 @@
+{
+  "name": "spoems",
+  "version": "1.0.0",
+  "description": "spam poems",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "nodeunit test/main.js",
+    "start": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sole/spoems"
+  },
+  "keywords": [
+    "template",
+    "npm",
+    "umd",
+    "browserify"
+  ],
+  "author": "sole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sole/spoems/issues"
+  },
+  "homepage": "https://github.com/sole/spoems",
+  "dependencies": {
+    "browserify": "^5.10.0",
+    "gulp": "^3.8.7",
+    "gulp-browserify": "^0.5.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.4.0",
+    "gulp-uglify": "^0.3.1",
+    "yargs": "^1.3.1"
+  }
+}
