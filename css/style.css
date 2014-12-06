@@ -17,5 +17,14 @@ article {
 	border: 3px dashed red;
 	display: inline-block;
 	padding: 1rem;
+	margin: 0 1rem 1rem 0;
+}
+
+h2 {
+	margin-bottom: 1rem;
+}
+
+p {
+	margin: 1rem 0;
 }
 
