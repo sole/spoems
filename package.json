@@ -25,6 +25,7 @@
   "homepage": "https://github.com/sole/spoems",
   "dependencies": {
     "browserify": "^5.10.0",
+    "glob": "^4.3.1",
     "gulp": "^3.8.7",
     "gulp-browserify": "^0.5.0",
     "gulp-jshint": "^1.8.4",
