@@ -6,4 +6,16 @@
 
 body {
 	font-family: monospace;
+	padding: 1rem;
 }
+
+main {
+	padding: 1rem 0;
+}
+
+article {
+	border: 3px dashed red;
+	display: inline-block;
+	padding: 1rem;
+}
+
