@@ -23,7 +23,7 @@ gulp.task('build-js', function() {
 			debug: !yargs.argv.production
 		}))
 		.pipe(uglify())
-		.pipe(gulp.dest('./build/js'));
+		.pipe(gulp.dest('./build'));
 });
 
 
